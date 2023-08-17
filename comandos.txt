@@ -1,0 +1,26 @@
+409  git init
+410  touch main.js index.html
+411  git remote add origin https://github.com/Frantisekt/Checkpoint-FranciscoParra.git
+412  git remote -v
+413  git add .
+414  git commit -m "commit 01 de FranciscoParra"
+415  git push origin main
+416  git branch feature
+417  git checkout feature
+418  mkdir hardware
+419  mkdir softwre
+420  mkdir seguridad_informatica
+421  touch resumen.txt F:/Checkpoint-FranciscoParra/hardware
+422  mv  resumen.txt F:/Checkpoint-FranciscoParra/hardware/
+423  touch resumen.txt F:/Checkpoint-FranciscoParra/software/
+424  mv  resumen.txt F:/Checkpoint-FranciscoParra/software
+425  touch resumen.txt F:/Checkpoint-FranciscoParra/
+426  mv  resumen.txt F:/Checkpoint-FranciscoParra/seguridad-informatica
+427  git add .
+428  git commit -m "commit 02 de  FranciscoParra"
+429  git push origin feature
+430  git checkout main
+431  mv main.js resumenHardware.txt
+432  mv index.html resumenSoftware.txt
+433  touch comandos.txt
+434  history
